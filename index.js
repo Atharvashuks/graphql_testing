@@ -20,4 +20,7 @@ app.use(
     graphiql: true,
   })
 );
-app.listen(4000, console.log("Server active"));
+app.listen(
+  "https://www.testinggraphql.com/graphql",
+  console.log("Server active")
+);
